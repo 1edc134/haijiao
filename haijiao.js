@@ -1,22 +1,21 @@
 // ==UserScript==
-// @name         海角社区 解锁VIP观看高清下载搜索等限制,去除广告.正则版通杀所有 for openuserjs
-// @description  https://github.com/91p2022/haijiao 解锁海角社区观看下载搜索限制,去除广告,付费视频等,警告:本脚本无任何盈利方式,触犯某收费且含有监控追踪代码脚本,疯狂举报且用且珍惜,请保护好个人财产和隐私.
-// @copyright    https://t.me/vipnav
+// @name         海角社区 解锁VIP付费视频高清下载等限制,去除广告.正则版通杀所有 for openuserjs
+// @description  https://github.com/91p2022/haijiao 解锁VIP付费视频高清下载等限制
+// @copyright    https://t.me/svipmap
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=91porn.com
-// @version      0.0.1
-// @author       https://t.me/vipnav
+// @version      0.0.2
+// @author       https://t.me/svipmap
 // @license      AGPL-3.0-only
-// @homepageURL  https://t.me/vipnav
+// @homepageURL  https://t.me/svipmap
 // @match        *.haijiao.com/*
 // @match        *://*/post/details*
-// @match        *://*/index.php*
-// @match        *://*/search_result.php*
 // @require      https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js
 // @require      https://www.googletagmanager.com/gtag/js
 // @run-at       document-end
 // @grant        none
-// @antifeature tracking 会提前预解析,存入redis.提高解析速度,具体图看使用教程
-// ==/UserScript==
+// @antifeature tracking 会提前预解析,存入redis.提高解析速度,具体图看使用教程# 防丢导航群&更新公告&使用教程&常见问题&每日自动采集精选 等都在这里,https://t.me/svipmap
+
+
 function playvideo() {
     $.ajax({
         url:"http://"+ window.location.host +"/api/playvideo.html",
@@ -126,7 +125,7 @@ function Load_3U8Api()
 
           // 注入html
            let $section = document.createElement('section');
-          $section.innerHTML = '<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><h1>脚本预注入成功，将当前页面网址发送<a href="https://t.me/vipnav" target="_blank" rel="noopener noreferrer">https://t.me/vipnav</a>至即可下载</h1><img src="https://user-images.githubusercontent.com/104338953/220874558-04fdfe5e-6ec1-472c-a786-e1d3f0b9b04b.png" width="50%" /></body>'
+          $section.innerHTML = '<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><h1>脚本预注入成功，将当前页面网址发送<a href="https://t.me/svipmap/6" target="_blank" rel="noopener noreferrer">https://t.me/svipmap/6</a>至即可下载</h1><img src="https://user-images.githubusercontent.com/104338953/220874558-04fdfe5e-6ec1-472c-a786-e1d3f0b9b04b.png" width="50%" /></body>'
           $section.style.width = '100%'
           $section.style.height = '600px'
           $section.style.top = '0'
