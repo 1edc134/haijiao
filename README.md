@@ -11,4 +11,4 @@
 
 使用教程:在上面导航群
 
-![image](https://user-images.githubusercontent.com/104338953/226642392-41b56783-f251-49b1-9be2-669919bbe46e.png)
+![image](https://user-images.githubusercontent.com/104338953/227548360-2becf236-480a-46b3-bb51-b679a7034853.png)
