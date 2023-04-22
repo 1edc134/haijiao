@@ -2,7 +2,7 @@
 // @name         海角社区 解锁VIP观看高清下载搜索等限制,去除广告.正则版通杀所有 for openuserjs
 // @description  https://github.com/91p2022/haijiao 解锁91pornVIP观看下载搜索限制,去除广告,付费视频等,警告:本脚本无任何盈利方式,触犯某收费且含有监控追踪代码脚本,疯狂举报且用且珍惜,请保护好个人财产和隐私.
 // @copyright    https://t.me/vipnav
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=91porn.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=haijiao.com
 // @version      0.0.3
 // @author       https://t.me/vipnav
 // @license      AGPL-3.0-only
